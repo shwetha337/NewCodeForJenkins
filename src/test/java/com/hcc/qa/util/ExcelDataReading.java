@@ -17,7 +17,7 @@ public class ExcelDataReading {
 		FileInputStream file = null;
 		try {
 			
-			file = new FileInputStream("C:\\Users\\pal\\Downloads\\DailyHealthCheckCode-master\\TestScreenShotDemo\\TestData\\ListOfUrls.xlsx");
+			file = new FileInputStream(".\\TestData\\ListOfUrls.xlsx");
 		System.out.println(file);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
