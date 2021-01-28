@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51475" started-at="2021-01-28T15:31:43Z" finished-at="2021-01-28T15:32:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51475" started-at="2021-01-28T15:31:43Z" finished-at="2021-01-28T15:32:35Z">
+      <class name="ExtentReport.ExtentReportsClass">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:ExtentReport.ExtentReportsClass@60c6f5b]" name="startReport" is-config="true" duration-ms="117" started-at="2021-01-28T21:01:43Z" finished-at="2021-01-28T21:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="PaladionNetworksWithAzureAndOffice365(java.lang.String, java.lang.String)[pri:1, instance:ExtentReport.ExtentReportsClass@60c6f5b]" name="PaladionNetworksWithAzureAndOffice365" duration-ms="50112" started-at="2021-01-28T21:01:44Z" data-provider="paladionNetworksWithO365Data" finished-at="2021-01-28T21:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://palmdrsa-rvkpxf73t5m64.eastus.cloudapp.azure.com:8080/nifi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PaladionNetworksWithAzure AndOffice 365]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaladionNetworksWithAzureAndOffice365 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReportsClass@60c6f5b]" name="getResult" is-config="true" duration-ms="5" started-at="2021-01-28T21:02:34Z" finished-at="2021-01-28T21:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PaladionNetworksWithAzureAndOffice365 status=SUCCESS method=ExtentReportsClass.PaladionNetworksWithAzureAndOffice365(java.lang.String, java.lang.String)[pri:1, instance:ExtentReport.ExtentReportsClass@60c6f5b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:ExtentReport.ExtentReportsClass@60c6f5b]" name="endReport" is-config="true" duration-ms="761" started-at="2021-01-28T21:02:34Z" finished-at="2021-01-28T21:02:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- ExtentReport.ExtentReportsClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
