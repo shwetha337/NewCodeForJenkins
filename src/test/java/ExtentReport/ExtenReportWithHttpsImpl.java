@@ -1,4 +1,4 @@
-package ExtentReport;
+/*package ExtentReport;
 
 
 import java.io.File;
@@ -60,7 +60,7 @@ public class ExtenReportWithHttpsImpl {
 			extent.loadConfig(new File(System.getProperty("user.dir") + "\\extent-config.xml"));
 		}
 
-		/*@DataProvider
+		@DataProvider
 		public Object[][] paladionNetworksWithO365Data() {
 
 			Object data[][] = excel.getTestData("Paladion Networks With O365");
@@ -352,7 +352,7 @@ public class ExtenReportWithHttpsImpl {
 			logger = extent.startTest("Mdrazcentrallec");
 			basicsetup(url, name);
 
-		}*/
+		}
 		
 		@DataProvider
 		public Object[][] GodigitAzureO365() {
@@ -360,7 +360,7 @@ public class ExtenReportWithHttpsImpl {
 			return data;
 		}
 
-		/*@Test(dataProvider = "GodigitAzureO365", priority = 22)
+		@Test(dataProvider = "GodigitAzureO365", priority = 22)
 		public void GodigitAzureO365(String url, String name) throws IOException, InterruptedException {
 			logger = extent.startTest("GodigitAzureO365");
 			try {
@@ -373,9 +373,9 @@ public class ExtenReportWithHttpsImpl {
 				e.printStackTrace();
 			}
 
-		}*/
+		}
 
-		/*@DataProvider
+		@DataProvider
 		public Object[][] ASM() {
 			Object data[][] = excel.getTestData("ASM");
 			return data;
@@ -386,9 +386,9 @@ public class ExtenReportWithHttpsImpl {
 			logger = extent.startTest("ASMShippingwithAzureO365");
 			basicsetuphttps(url, name);
 
-		}*/
+		}
 
-		/*@DataProvider
+		@DataProvider
 		public Object[][] PepperIndia() {
 			Object data[][] = excel.getTestData("PepperIndia");
 			return data;
@@ -504,7 +504,7 @@ public class ExtenReportWithHttpsImpl {
 			logger = extent.startTest("Simens7withAws");
 			basicsetup(url, name);
 
-		}*/
+		}
 
 		@AfterMethod
 		public void getResult(ITestResult result) throws Exception {
@@ -541,7 +541,7 @@ public class ExtenReportWithHttpsImpl {
 		}
 
 		public void checkigTheTotalQueueddata(String name) throws IOException, InterruptedException {
-			/*homePage=new HomePage();
+			homePage=new HomePage();
 			String value =homePage.getQueuedData();
 			logger.log(LogStatus.INFO, "The Total queued data found is :" + value);
 
@@ -565,7 +565,7 @@ public class ExtenReportWithHttpsImpl {
 			}
 
 			logger.log(LogStatus.INFO, "Checking for error messages");
-			checkingForErrorMessages(name);*/
+			checkingForErrorMessages(name);
 
 			Thread.sleep(4000);
 			WebElement totalQueuedData = driver.findElement(By.xpath("//span[@id='total-queued']"));
@@ -602,7 +602,7 @@ public class ExtenReportWithHttpsImpl {
 
 		public void checkingForErrorMessages(String name) throws InterruptedException, IOException {
 
-			/*	   homePage=new HomePage();
+				   homePage=new HomePage();
 		   homePage.clickOnzoomBtn();
 		   homePage.clickOnglobalButton();
 		   homePage.clickOnbulletinBoard();
@@ -615,7 +615,7 @@ public class ExtenReportWithHttpsImpl {
 				logger.log(LogStatus.PASS, "No errors found!!! in Nifi Parser");
 
 			}
-		   driver.quit();*/
+		   driver.quit();
 			WebElement zoomBtn = driver.findElement(By.xpath("//div[@id='naviagte-zoom-actual-size']//button"));
 			zoomBtn.click();
 
@@ -648,7 +648,7 @@ public class ExtenReportWithHttpsImpl {
 			driver.quit();
 		}
 
-		/*public void basicsetuphttps(String url, String name) throws IllegalFormatException, IOException, InterruptedException, FindFailed {
+		public void basicsetuphttps(String url, String name) throws IllegalFormatException, IOException, InterruptedException, FindFailed {
 			
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\Pal\\workspace1\\TestScreenShotDemo\\drivers\\chromedriver.exe");
@@ -800,6 +800,7 @@ public class ExtenReportWithHttpsImpl {
 			// test.log(Status.INFO,"Checking for error messages");
 			// QueuedDataAndExceptions.checkingForErrorMessages(name);
 		}
-	*/
+	
 
 }
+*/

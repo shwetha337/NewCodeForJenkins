@@ -9,7 +9,7 @@ import org.sikuli.script.ScreenImage;
 
 
 public class sikuli {
-	static WebDriver driver;
+	/*static WebDriver driver;
 	public static void main(String[] args) throws FindFailed{
 		
 		   Screen screen=new Screen();
@@ -60,7 +60,7 @@ public class sikuli {
 			
 			
 			
-			/*// Maximize browser
+			// Maximize browser
 
 			System.setProperty("webdriver.gecko.driver","C:\\Users\\pal\\Downloads\\DailyHealthCheckCode-master\\TestScreenShotDemo\\drivers\\geckodriver.exe" );  
 	        DesiredCapabilities capabilities = DesiredCapabilities.firefox();  
@@ -190,10 +190,10 @@ public class sikuli {
 		    } catch (FindFailed e) {
 		        // TODO Auto-generated catch block
 		        e.printStackTrace();
-		    }*/
+		    }
 			
 		   
 		}
 		
-
+*/
 }

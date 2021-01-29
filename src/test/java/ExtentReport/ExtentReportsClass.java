@@ -752,7 +752,7 @@ public class ExtentReportsClass {
 	    System.out.println("Please note down the file Path: ");
 	    System.out.println(path1);*/
 		Pattern pattern1 = null;
-		pattern1=new Pattern("C:\\Users\\pal\\Downloads\\DailyHealthCheckCode-master\\TestScreenShotDemo\\.\\sikuliximage-1611644183856.png");
+		pattern1=new Pattern(".\\sikuliximage-1611644183856.png");
 
 		try {
 			Thread.sleep(1000);
